@@ -1,0 +1,69 @@
+/* tolgaozden.net — forest + lime palette, Sora */
+:root{
+  --bg:#111916;--side:#17211d;--card:#1a2622;--card-h:#203029;--line:#2b3b34;
+  --ink:#e9f1ec;--muted:#8fa79b;
+  --acc:#9ee66f;--acc-ink:#1a3208;--acc-soft:rgba(158,230,111,.14);
+  --acc2:#f5c064;--acc2-soft:rgba(245,192,100,.15);
+  --acc3:#7dd3fc;--acc3-soft:rgba(125,211,252,.15);
+  --sans:"Sora",system-ui,sans-serif;--mono:"JetBrains Mono",ui-monospace,monospace;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:var(--sans);color:var(--ink);background:var(--bg);line-height:1.65;font-size:15.5px}
+a{color:var(--acc)}
+a:focus-visible{outline:2px solid var(--acc);outline-offset:2px}
+.layout{display:flex;min-height:100vh}
+
+/* sidebar */
+aside{width:264px;flex:none;background:var(--side);border-right:1px solid var(--line);padding:40px 28px;position:sticky;top:0;height:100vh;display:flex;flex-direction:column}
+.avatar{width:96px;height:96px;border-radius:50%;object-fit:cover;background:var(--line);display:block;outline:3px solid var(--acc);outline-offset:3px}
+.who{margin:22px 0 26px}
+.who .n{font-weight:600;font-size:1.2rem;margin:0;letter-spacing:-0.01em}
+.who .r{color:var(--muted);font-size:.85rem;margin:3px 0 0}
+nav a{display:flex;align-items:center;gap:10px;padding:9px 12px;margin:2px -12px;border-radius:8px;color:var(--muted);text-decoration:none;font-size:.93rem;font-weight:500;border-left:3px solid transparent}
+nav a.on{background:var(--acc-soft);color:var(--acc);border-left-color:var(--acc)}
+nav a:hover:not(.on){color:var(--ink);background:var(--card)}
+.icons{margin-top:auto;display:flex;flex-wrap:wrap;gap:8px}
+.icons a{color:var(--muted);text-decoration:none;font-size:.78rem;border:1px solid var(--line);padding:4px 10px;border-radius:999px}
+.icons a:hover{color:var(--acc);border-color:var(--acc)}
+
+/* main */
+main{flex:1;padding:56px 64px;max-width:880px}
+.eyebrow{font-family:var(--mono);font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;color:var(--acc);margin:0 0 .6rem}
+h1{font-size:2rem;font-weight:600;letter-spacing:-0.03em;margin:0 0 .4rem;line-height:1.15}
+.sub{color:var(--muted);margin:0 0 2rem;font-size:1.02rem}
+h2{font-size:.78rem;font-weight:600;text-transform:uppercase;letter-spacing:.1em;color:var(--muted);margin:2.6rem 0 1rem;display:flex;align-items:center;gap:12px}
+h2::after{content:"";flex:1;height:1px;background:var(--line)}
+.intro p{margin:0 0 1rem;font-size:1.05rem}
+
+/* cards */
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:18px 20px;margin-bottom:12px;transition:background .15s,border-color .15s}
+.card:hover{background:var(--card-h);border-color:var(--acc)}
+.tag{display:inline-block;font-family:var(--mono);font-size:.7rem;padding:3px 9px;border-radius:5px;margin-bottom:8px;letter-spacing:.02em}
+.tag.published{background:var(--acc-soft);color:var(--acc)}
+.tag.wp{background:var(--acc2-soft);color:var(--acc2)}
+.tag.review{background:var(--acc3-soft);color:var(--acc3)}
+.yr{font-family:var(--mono);font-size:.74rem;color:var(--muted);margin-left:6px}
+.card .t{font-weight:600;margin:0 0 3px;font-size:1.04rem;line-height:1.35}
+.card .v{margin:0;color:var(--muted);font-size:.9rem}
+.card .v em{font-style:italic;color:var(--ink)}
+.btns{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+.btns a{font-size:.8rem;text-decoration:none;border:1px solid var(--line);padding:5px 12px;border-radius:999px;color:var(--ink);background:var(--bg)}
+.btns a:hover{border-color:var(--acc);color:var(--acc)}
+.btns a.primary{background:var(--acc);color:var(--acc-ink);border-color:var(--acc);font-weight:600}
+.btns a.primary:hover{color:var(--acc-ink);opacity:.9}
+
+/* contact */
+.contact .row{display:flex;gap:16px;padding:14px 0;border-bottom:1px solid var(--line)}
+.contact .k{width:110px;color:var(--muted);font-size:.85rem;flex:none}
+.empty{color:var(--muted);border:1px dashed var(--line);border-radius:12px;padding:28px;text-align:center}
+
+@media(max-width:760px){
+  .layout{flex-direction:column}
+  aside{width:100%;height:auto;position:static;padding:20px;flex-direction:row;align-items:center;gap:14px;flex-wrap:wrap}
+  .avatar{width:56px;height:56px}.who{margin:0}.icons{margin:0;width:100%}
+  nav{display:flex;gap:2px;width:100%;overflow-x:auto}
+  nav a{margin:0;white-space:nowrap;border-left:0;border-bottom:3px solid transparent;border-radius:8px 8px 0 0}
+  nav a.on{border-bottom-color:var(--acc)}
+  main{padding:28px 20px}
+}
