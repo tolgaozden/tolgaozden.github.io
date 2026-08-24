@@ -1,10 +1,10 @@
-/* tolgaozden.net — forest + lime palette, Sora */
+/* tolgaozden.net — porcelain + blue palette, Sora */
 :root{
-  --bg:#111916;--side:#17211d;--card:#1a2622;--card-h:#203029;--line:#2b3b34;
-  --ink:#e9f1ec;--muted:#8fa79b;
-  --acc:#9ee66f;--acc-ink:#1a3208;--acc-soft:rgba(158,230,111,.14);
-  --acc2:#f5c064;--acc2-soft:rgba(245,192,100,.15);
-  --acc3:#7dd3fc;--acc3-soft:rgba(125,211,252,.15);
+  --bg:#f5f7fa;--side:#eceff4;--card:#ffffff;--card-h:#fafbfd;--line:#dde3ea;
+  --ink:#1c2430;--muted:#67788c;
+  --acc:#1c5fa6;--acc-ink:#ffffff;--acc-soft:rgba(28,95,166,.1);
+  --acc2:#0f8a6d;--acc2-soft:rgba(15,138,109,.12);
+  --acc3:#b0530b;--acc3-soft:rgba(176,83,11,.1);
   --sans:"Sora",system-ui,sans-serif;--mono:"JetBrains Mono",ui-monospace,monospace;
 }
 *{box-sizing:border-box}
