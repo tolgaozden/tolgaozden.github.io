@@ -12,6 +12,9 @@ Files in this folder replace the old Start Bootstrap template.
 
 Editing later:
 - Colours and fonts live at the top of `css/style.css`.
-- The sidebar is repeated in each HTML file; if you change a link, change it in all five.
-- To add a paper, copy one `<div class="card">…</div>` block in `research.html`.
+- The sidebar is repeated in each HTML file (`index`, `research`, `code`, `contact`); if you change a link, change it in all of them.
+- `research.html` holds both lists: research under `<h2 id="research">`, policy work under `<h2 id="policy">`.
+  `policy.html` is only a redirect to `research.html#policy` so old links keep working.
+- To add an item, copy one `<div class="card">…</div>` block into the right section.
   Tag classes: `published`, `wp` (working/policy paper), `review` (under review).
+  For boxes or other sub-contributions, add a `<ul class="subs"><li>…</li></ul>` inside the card.

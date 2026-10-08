@@ -47,6 +47,12 @@ h2::after{content:"";flex:1;height:1px;background:var(--line)}
 .card .t{font-weight:600;margin:0 0 3px;font-size:1.04rem;line-height:1.35}
 .card .v{margin:0;color:var(--muted);font-size:.9rem}
 .card .v em{font-style:italic;color:var(--ink)}
+.subs{list-style:none;margin:10px 0 0;padding:10px 0 0;border-top:1px dashed var(--line)}
+.subs li{position:relative;padding-left:18px;margin:4px 0;color:var(--muted);font-size:.88rem;line-height:1.45}
+.subs li::before{content:"↳";position:absolute;left:0;color:var(--acc)}
+.subs .st{color:var(--ink)}
+.jump{margin:0;font-size:.9rem;color:var(--muted)}
+h2[id]{scroll-margin-top:24px}
 .btns{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
 .btns a{font-size:.8rem;text-decoration:none;border:1px solid var(--line);padding:5px 12px;border-radius:999px;color:var(--ink);background:var(--bg)}
 .btns a:hover{border-color:var(--acc);color:var(--acc)}
