@@ -11,7 +11,7 @@ Editing later:
 - The sidebar is repeated in all six; if you change a link, change it in every page and move `class="on"` to the page's own link.
 - `research.html` holds research only. `policy.html` holds policy work, with the ADO items in their own
   "Asian Development Outlook" section at the bottom. `research.html` redirects `#policy` to `policy.html` so old links keep working.
-- `code.html` lists toolboxes and replication packages; `hetlearn.html` describes the HetLearn Toolbox and links to its documentation.
+- `code.html` lists scenario codes and replication packages in one list; `hetlearn.html` describes the HetLearn Toolbox and links to its documentation.
 - To add an item, copy one `<div class="card">…</div>` block into the right page or section.
-  Tag classes: `published`, `wp` (working/policy paper), `review` (under review), `tool` (toolbox), `repl` (replication package).
+  Tag classes: `published`, `wp` (working/policy paper), `review` (under review), `code` (code collection), `repl` (replication package).
   For boxes or other sub-contributions, add a `<ul class="subs"><li>…</li></ul>` inside the card; for a one-line description, add `<p class="d">…</p>`.
