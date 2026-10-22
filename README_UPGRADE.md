@@ -5,7 +5,7 @@ Plain HTML and one stylesheet (`css/style.css`); no build step.
 Push to master; GitHub Pages serves tolgaozden.net within a minute or two.
 
 Editing later:
-- Colours and fonts live at the top of `css/style.css`. The root `style.css` is a stale copy that no page uses.
+- Colors and fonts live at the top of `css/style.css`. The root `style.css` is a stale copy that no page uses.
 - Six pages: `index.html`, `research.html`, `policy.html`, `code.html` (nav label "Codes"),
   `hetlearn.html` (nav label "HetLearn Toolbox"), `contact.html`.
 - The sidebar is repeated in all six; if you change a link, change it in every page and move `class="on"` to the page's own link.
