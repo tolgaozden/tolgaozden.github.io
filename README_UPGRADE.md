@@ -1,17 +1,57 @@
 # tolgaozden.net
 
-Plain HTML and one stylesheet (`css/style.css`); no build step.
+One generated page, `index.html`, plus redirect stubs at the old page URLs. Plain static files on
+GitHub Pages (`.nojekyll`, `CNAME`). Push to master and the live site updates within a minute or two.
 
-Push to master; GitHub Pages serves tolgaozden.net within a minute or two.
+## Update content
 
-Editing later:
-- Colors and fonts live at the top of `css/style.css`. The root `style.css` is a stale copy that no page uses.
-- Six pages: `index.html`, `research.html`, `policy.html`, `code.html` (nav label "Codes"),
-  `hetlearn.html` (nav label "HetLearn Toolbox"), `contact.html`.
-- The sidebar is repeated in all six; if you change a link, change it in every page and move `class="on"` to the page's own link.
-- `research.html` holds research only. `policy.html` holds policy work, with the ADO items in their own
-  "Asian Development Outlook" section at the bottom. `research.html` redirects `#policy` to `policy.html` so old links keep working.
-- `code.html` lists scenario codes and replication packages in one list; `hetlearn.html` describes the HetLearn Toolbox and links to its documentation.
-- To add an item, copy one `<div class="card">…</div>` block into the right page or section.
-  Tag classes: `published`, `wp` (working/policy paper), `review` (under review), `code` (code collection), `repl` (replication package).
-  For boxes or other sub-contributions, add a `<ul class="subs"><li>…</li></ul>` inside the card; for a one-line description, add `<p class="d">…</p>`.
+1. Edit `src/content.json`. Entries appear in file order. A `policy` entry with `"section": "ado"` goes
+   to the Asian Development Outlook list at the foot of the Policy work tab.
+2. Run `python -I src/build_site.py` (standard library only; any working directory).
+3. Commit `src/content.json` and `index.html` together.
+
+`index.html` is generated, so hand edits to it are lost on the next build. The docstring of
+`src/build_site.py` lists the fields that hold HTML (escape `&` and `<` there).
+
+## Colors and fonts
+
+- `DAY` (Violet) and `NIGHT` (Night) dicts at the top of `src/build_site.py`, one CSS custom property
+  per key (`accent_soft` becomes `--accent-soft`). The page follows the system setting; the switch in the
+  profile card overrides it and the browser remembers the choice.
+- `FONTS` and `GOOGLE_FONTS` just below them (Source Code Pro from Google Fonts).
+- Layout and spacing: `LIST_CSS` in the same file.
+
+## Tab deep links
+
+| Tab | Link |
+|---|---|
+| Research | `index.html#research` |
+| Policy work | `index.html#policy` |
+| Codes | `index.html#codes` |
+| HetLearn Toolbox | `index.html#hetlearn` |
+
+## Redirect stubs
+
+| Old page | Redirects to |
+|---|---|
+| `research.html` | `index.html#research` (`research.html#policy` goes to `#policy`) |
+| `policy.html` | `index.html#policy` |
+| `code.html` | `index.html#codes` |
+| `hetlearn.html` | `index.html#hetlearn` |
+| `contact.html` | `index.html` (contact details are in the profile card) |
+
+Each stub redirects by script and by meta refresh, carries a canonical link and shows one fallback
+link. They hold no content.
+
+## Unused files
+
+No page loads these:
+
+- `css/style.css` and the root `style.css`: stylesheets of the earlier six-page site.
+- Start Bootstrap leftovers: `package.json`, `package-lock.json`, `gulpfile.js`, `vendor/`, `scss/`,
+  `js/`, `css/resume*.css`, `handler.php`, `.travis.yml`. These trigger GitHub's Dependabot alerts.
+
+Still in use: `img/tolga.jpg` (photo), `doc/` (CV and a paper draft linked from the page), `CNAME`,
+`.nojekyll`.
+
+Restructured on 22 October 2026 from six hand-written pages into one generated page.
