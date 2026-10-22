@@ -43,6 +43,10 @@ h2::after{content:"";flex:1;height:1px;background:var(--line)}
 .tag.published{background:var(--acc-soft);color:var(--acc)}
 .tag.wp{background:var(--acc2-soft);color:var(--acc2)}
 .tag.review{background:var(--acc3-soft);color:var(--acc3)}
+.tag.tool{background:var(--acc-soft);color:var(--acc)}
+.tag.repl{background:var(--acc2-soft);color:var(--acc2)}
+.card .d{margin:8px 0 0;font-size:.9rem;line-height:1.5}
+h1 + .card{margin-top:1.8rem}
 .yr{font-family:var(--mono);font-size:.74rem;color:var(--muted);margin-left:6px}
 .card .t{font-weight:600;margin:0 0 3px;font-size:1.04rem;line-height:1.35}
 .card .v{margin:0;color:var(--muted);font-size:.9rem}
