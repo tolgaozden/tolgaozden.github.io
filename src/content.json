@@ -1,0 +1,487 @@
+{
+  "profile": {
+    "name": "Tolga Ozden",
+    "handle": "tolgaozden.net",
+    "meta": "Economist · Asian Development Bank · Manila",
+    "description": "Tolga Ozden, economist at the Asian Development Bank. Research in macroeconomics and time series econometrics.",
+    "eyebrow": "Economist · macroeconomics · time series econometrics",
+    "bio": [
+      "Welcome to my homepage! I am an economist at the Asian Development Bank. I obtained my PhD in economics from the University of Amsterdam in April 2021. My fields of research are macroeconomics and time series econometrics."
+    ],
+    "emails": [
+      "tozden@adb.org",
+      "tolgaozdn@gmail.com"
+    ],
+    "office": [
+      "Asian Development Bank",
+      "6 ADB Avenue, Mandaluyong City, Manila"
+    ],
+    "photo": "img/tolga.jpg",
+    "links": {
+      "github": "https://github.com/tolgaozden",
+      "scholar": "https://scholar.google.com/citations?user=ezvLgX8AAAAJ&hl=en&oi=ao",
+      "linkedin": "https://www.linkedin.com/in/tolga-%C3%B6zden-8a509890/",
+      "cv": "https://tolgaozden.net/doc/CV_tolga.pdf"
+    },
+    "updated": "October 2026"
+  },
+  "tabs": {
+    "research": "Research",
+    "policy": "Policy work",
+    "codes": "Codes",
+    "hetlearn": "HetLearn Toolbox"
+  },
+  "headings": {
+    "ado": "Asian Development Outlook (ADO)"
+  },
+  "research": [
+    {
+      "status": "wp",
+      "label": "Staff analytical paper",
+      "year": "2026",
+      "title": "Prima: The Bank of Canada’s New Projection and Policy-Analysis Model—An Overview",
+      "venue": "Bank of Canada Staff Analytical Paper 2026-47",
+      "venue_abbr": "BoC",
+      "tile_kind": "bank",
+      "coauthors": "Coletti et al.",
+      "links": [
+        {
+          "label": "Paper",
+          "url": "https://www.bankofcanada.ca/2026/10/staff-analytical-paper-2026-47/",
+          "primary": true
+        },
+        {
+          "label": "PDF",
+          "url": "https://www.bankofcanada.ca/wp-content/uploads/2026/09/sap2026-47.pdf",
+          "primary": false
+        }
+      ]
+    },
+    {
+      "status": "published",
+      "label": "Published",
+      "year": "2024",
+      "title": "Behavioral Learning Equilibria in New Keynesian Models",
+      "venue": "Quantitative Economics",
+      "venue_abbr": "QE",
+      "tile_kind": "journal",
+      "coauthors": "with <a href=\"http://www.uva.nl/en/profile/h/o/c.h.hommes/c.h.hommes.html\" target=\"_blank\" rel=\"noopener\">C. Hommes</a>, <a href=\"https://sites.google.com/site/konstantinossmavromatis/\" target=\"_blank\" rel=\"noopener\">K. Mavromatis</a> and <a href=\"https://www.researchgate.net/profile/Mei_Zhu4\" target=\"_blank\" rel=\"noopener\">M. Zhu</a>",
+      "links": [
+        {
+          "label": "Published version",
+          "url": "https://onlinelibrary.wiley.com/doi/full/10.3982/QE1533",
+          "primary": true
+        },
+        {
+          "label": "Bank of Canada WP 2022-42",
+          "url": "https://www.bankofcanada.ca/2022/09/staff-working-paper-2022-42/",
+          "primary": false
+        },
+        {
+          "label": "DNB WP 654",
+          "url": "https://www.dnb.nl/en/publications/research-publications/working-papers-2019/behavioral-learning-equilibria-in-the-new-keynesian-model/",
+          "primary": false
+        }
+      ]
+    },
+    {
+      "status": "published",
+      "label": "Published",
+      "year": "2025",
+      "title": "Heterogeneous Expectations and the Business Cycle at the Effective Lower Bound",
+      "venue": "International Journal of Central Banking",
+      "venue_abbr": "IJCB",
+      "tile_kind": "journal",
+      "coauthors": "",
+      "links": [
+        {
+          "label": "Published version",
+          "url": "https://www.ijcb.org/journal/ozden_forth.pdf",
+          "primary": true
+        },
+        {
+          "label": "DNB WP 714",
+          "url": "https://www.dnb.nl/publicaties/publicaties-onderzoek/working-papers-2021/714-heterogeneous-expectations-and-the-business-cycle-at-the-effective-lower-bound/",
+          "primary": false
+        }
+      ]
+    },
+    {
+      "status": "wp",
+      "label": "Working paper",
+      "year": "2024",
+      "title": "Endogenous Credibility and Wage-Price Spirals",
+      "venue": "Bank of Canada Staff Working Paper 2024-14",
+      "venue_abbr": "BoC",
+      "tile_kind": "bank",
+      "coauthors": "with <a href=\"https://www.bankofcanada.ca/profile/olena-kostyshyna/\" target=\"_blank\" rel=\"noopener\">O. Kostyshyna</a> and <a href=\"https://www.bankofcanada.ca/profile/yang-zhang/\" target=\"_blank\" rel=\"noopener\">Y. Zhang</a>",
+      "links": [
+        {
+          "label": "Working paper",
+          "url": "https://www.bankofcanada.ca/2024/05/staff-working-paper-2024-14/",
+          "primary": true
+        },
+        {
+          "label": "PDF",
+          "url": "https://www.bankofcanada.ca/wp-content/uploads/2024/05/swp2024-14.pdf",
+          "primary": false
+        }
+      ]
+    },
+    {
+      "status": "review",
+      "label": "Under review",
+      "year": "2023",
+      "title": "Restricted Perceptions, Regime Switches and the Effective Lower Bound",
+      "venue": "Under review",
+      "venue_abbr": "MS",
+      "tile_kind": "draft",
+      "coauthors": "with <a href=\"https://www.ecb.europa.eu/pub/research/authors/profiles/raf-wouters.en.html\" target=\"_blank\" rel=\"noopener\">R. Wouters</a>",
+      "links": [
+        {
+          "label": "Latest version",
+          "url": "https://tolgaozden.net/doc/ozdenwouters2020_draft.pdf",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "status": "wp",
+      "label": "Perpetual working paper",
+      "year": "2023",
+      "title": "Misallocation and Productivity Growth: a Meta-analysis",
+      "venue": "DNB Working Paper No. 774",
+      "venue_abbr": "DNB",
+      "tile_kind": "bank",
+      "coauthors": "with M. Bun and T. Kolaiti",
+      "links": [
+        {
+          "label": "Working paper",
+          "url": "https://www.dnb.nl/en/publications/research-publications/working-paper-2023/774-misallocation-and-productivity-growth-a-meta-analysis/",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "status": "wp",
+      "label": "Perpetual working paper",
+      "year": "2021",
+      "title": "Macroprudential Policy Interactions in a Sectoral DSGE Model with Staggered Interest Rates",
+      "venue": "Bank of England Staff Working Paper No. 904",
+      "venue_abbr": "BoE",
+      "tile_kind": "bank",
+      "coauthors": "with M. Hinterschweiger, K. Khairnar and T. Stratton",
+      "links": [
+        {
+          "label": "Working paper",
+          "url": "https://www.bankofengland.co.uk/working-paper/2021/macroprudential-policy-interactions-in-a-sectoral-dsge-model-with-staggered-interest-rates",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "status": "published",
+      "label": "Published",
+      "year": "2017",
+      "title": "Results of a Massive Experiment on Virtual Currency Endowments and Money Demand",
+      "venue": "PLoS One",
+      "venue_abbr": "PLoS",
+      "tile_kind": "journal",
+      "coauthors": "with <a href=\"http://mediaschool.indiana.edu/profile/?p=castro\" target=\"_blank\" rel=\"noopener\">E. Castronova</a>, N. Zivic, I. Andjelkovic and M. Dekic",
+      "links": [
+        {
+          "label": "Published version",
+          "url": "http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0186407",
+          "primary": true
+        },
+        {
+          "label": "News release",
+          "url": "https://news.iu.edu/stories/2017/10/iub/releases/25-virtual-world-mimics-real-world-behavior.html",
+          "primary": false
+        },
+        {
+          "label": "Short summary",
+          "url": "https://edwardcastronova.com/portfolio/an-experiment-with-575000-subjects/",
+          "primary": false
+        }
+      ]
+    }
+  ],
+  "policy": [
+    {
+      "institution": "Bank of Canada",
+      "inst_abbr": "BoC",
+      "year": "2025",
+      "title": "Anchoring Inflation Expectations Around the Liberation Day Tariff Scenario",
+      "venue": "CEA Modelling News",
+      "coauthors": "with Y. Zhang and J. Jensen",
+      "links": [],
+      "subs": [],
+      "section": "main"
+    },
+    {
+      "institution": "Bank of Canada",
+      "inst_abbr": "BoC",
+      "year": "2023",
+      "title": "Costs and Benefits of Pausing Rates Under De-anchoring Risk",
+      "venue": "CEA Modelling News",
+      "coauthors": "with Y. Zhang",
+      "links": [],
+      "subs": [],
+      "section": "main"
+    },
+    {
+      "institution": "Bank of Canada",
+      "inst_abbr": "BoC",
+      "year": "2023",
+      "title": "Managing the Risks of Tightening Too Much Versus Not Enough",
+      "venue": "CEA Inquiry",
+      "coauthors": "with G. Cateau, V. Chu and Y. Zhang",
+      "links": [],
+      "subs": [],
+      "section": "main"
+    },
+    {
+      "institution": "Bank of Canada",
+      "inst_abbr": "BoC",
+      "year": "2023",
+      "title": "Implications of Rapidly Returning the Policy Rate to Neutral",
+      "venue": "Briefing note",
+      "coauthors": "",
+      "links": [],
+      "subs": [],
+      "section": "main"
+    },
+    {
+      "institution": "Bank of Canada",
+      "inst_abbr": "BoC",
+      "year": "2022",
+      "title": "Risks of De-anchoring Canadian Inflation: Insights from Heterogeneous Expectations",
+      "venue": "CEA Modelling News",
+      "coauthors": "with Y. Zhang",
+      "links": [],
+      "subs": [],
+      "section": "main"
+    },
+    {
+      "institution": "Bank of Canada",
+      "inst_abbr": "BoC",
+      "year": "2022",
+      "title": "Assessing FAD Models: Out-of-sample Forecast Performance",
+      "venue": "Internal note",
+      "coauthors": "with D. Coletti and others",
+      "links": [],
+      "subs": [],
+      "section": "main"
+    },
+    {
+      "institution": "Bank of Canada",
+      "inst_abbr": "BoC",
+      "year": "2022",
+      "title": "Assessing the FAD Models: Event Studies in ToTEM and LENS",
+      "venue": "Internal note",
+      "coauthors": "with F. Bounajm and D. Coletti",
+      "links": [],
+      "subs": [],
+      "section": "main"
+    },
+    {
+      "institution": "ECB",
+      "inst_abbr": "ECB",
+      "year": "2021",
+      "title": "Monetary-Fiscal Policy Interactions in the Euro Area, Box 17",
+      "venue": "ECB Occasional Paper Series No. 273",
+      "coauthors": "with G. Galati, D. Bonam and S. Poelhekke",
+      "links": [
+        {
+          "label": "Occasional paper",
+          "url": "https://www.ecb.europa.eu/pub/pdf/scpops/ecb.op273~fae24ce432.en.pdf",
+          "primary": true
+        }
+      ],
+      "subs": [],
+      "section": "main"
+    },
+    {
+      "institution": "DNB",
+      "inst_abbr": "DNB",
+      "year": "2020",
+      "title": "Price Setting Behaviour and Balance Sheets in the Netherlands: Evidence from Microdata",
+      "venue": "De Nederlandsche Bank, PRISMA network",
+      "coauthors": "",
+      "links": [],
+      "subs": [],
+      "section": "main"
+    },
+    {
+      "institution": "Bank of England",
+      "inst_abbr": "BoE",
+      "year": "2020",
+      "title": "Transmission Channels of LTI vs. LTV Limits in the UK",
+      "venue": "Underground note, Bank of England",
+      "coauthors": "",
+      "links": [],
+      "subs": [],
+      "section": "main"
+    },
+    {
+      "institution": "ADB",
+      "inst_abbr": "ADB",
+      "year": "2026",
+      "title": "Monetary Policy in High-Debt Environments",
+      "venue": "ADO September 2026, analytical chapter",
+      "coauthors": "co-lead, with J. K. Galimberti and S. Tian",
+      "links": [
+        {
+          "label": "Chapter PDF",
+          "url": "https://www.adb.org/sites/default/files/publication/1174871/analytical-chapter-ado-september-2026.pdf",
+          "primary": true
+        },
+        {
+          "label": "ADO September 2026",
+          "url": "https://www.adb.org/outlook/editions/september-2026",
+          "primary": false
+        }
+      ],
+      "subs": [],
+      "section": "ado"
+    },
+    {
+      "institution": "ADB",
+      "inst_abbr": "ADB",
+      "year": "2026",
+      "title": "Asian Development Outlook, September 2026",
+      "venue": "Part 1",
+      "coauthors": "contributing author",
+      "links": [
+        {
+          "label": "ADO September 2026",
+          "url": "https://www.adb.org/outlook/editions/september-2026",
+          "primary": true
+        },
+        {
+          "label": "Full report PDF",
+          "url": "https://www.adb.org/sites/default/files/publication/1174871/asian-development-outlook-september-2026.pdf",
+          "primary": false
+        }
+      ],
+      "subs": [
+        {
+          "label": "Box 1.2.1",
+          "title": "Producer prices as a leading indicator of consumer inflation",
+          "coauthors": "with S. Camingue-Romance"
+        },
+        {
+          "label": "Box 1.3.2",
+          "title": "Risk scenarios for El Niño and energy disruption",
+          "coauthors": ""
+        }
+      ],
+      "section": "ado"
+    },
+    {
+      "institution": "ADB",
+      "inst_abbr": "ADB",
+      "year": "2026",
+      "title": "Asian Development Outlook, July 2026",
+      "venue": "Part 1",
+      "coauthors": "contributing author",
+      "links": [
+        {
+          "label": "ADO July 2026",
+          "url": "https://www.adb.org/outlook/editions/july-2026",
+          "primary": true
+        }
+      ],
+      "subs": [],
+      "section": "ado"
+    }
+  ],
+  "codes_intro": "Scenario codes and replication packages. All repositories are public on <a href=\"https://github.com/tolgaozden\" target=\"_blank\" rel=\"noopener\">GitHub</a>.",
+  "codes": [
+    {
+      "kind": "codes",
+      "year": "2026",
+      "title": "OE-GEM Scenario Codes",
+      "venue": "MATLAB and Python",
+      "summary": "codes for scenario analysis on the Oxford Economics Global Econometric Model (GEM)",
+      "description": "",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/tolgaozden/OE-GEM-scenario-tools",
+          "primary": true
+        }
+      ],
+      "tile": "GEM",
+      "languages": [
+        "MATLAB",
+        "Python"
+      ]
+    },
+    {
+      "kind": "replication",
+      "year": "2025",
+      "title": "Heterogeneous Expectations and the Business Cycle at the Effective Lower Bound",
+      "venue": "International Journal of Central Banking",
+      "summary": "MATLAB code for the estimation, MCMC results and counterfactuals",
+      "description": "",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/tolgaozden/hetero_update",
+          "primary": true
+        },
+        {
+          "label": "Paper",
+          "url": "https://www.ijcb.org/journal/ozden_forth.pdf",
+          "primary": false
+        }
+      ],
+      "tile": "IJCB",
+      "languages": [
+        "MATLAB"
+      ]
+    },
+    {
+      "kind": "replication",
+      "year": "2024",
+      "title": "Behavioral Learning Equilibria in New Keynesian Models",
+      "venue": "Quantitative Economics",
+      "summary": "with C. Hommes, K. Mavromatis and M. Zhu",
+      "description": "",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/tolgaozden/Replication_HMOZ_2023_QE",
+          "primary": true
+        },
+        {
+          "label": "Paper",
+          "url": "https://onlinelibrary.wiley.com/doi/full/10.3982/QE1533",
+          "primary": false
+        }
+      ],
+      "tile": "QE",
+      "languages": []
+    }
+  ],
+  "hetlearn": {
+    "title": "HetLearn Toolbox",
+    "summary": "A MATLAB toolbox for forecasting and policy scenario analysis in DSGE models with bounded rationality and adaptive learning.",
+    "paragraphs": [],
+    "docs_url": "https://tolgaozden.net/iris_toolbox_learning/",
+    "repo_url": "",
+    "paper_url": "",
+    "links": [
+      {
+        "label": "Go to toolbox page",
+        "url": "https://tolgaozden.net/iris_toolbox_learning/",
+        "primary": true
+      }
+    ],
+    "note": "The code was written with assistance from Claude Opus 5.5. All remaining errors are my own. The toolbox is still largely a work in progress.",
+    "tile": "IRIS",
+    "docs_cover": ""
+  }
+}
