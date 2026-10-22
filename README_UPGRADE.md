@@ -43,15 +43,16 @@ GitHub Pages (`.nojekyll`, `CNAME`). Push to master and the live site updates wi
 Each stub redirects by script and by meta refresh, carries a canonical link and shows one fallback
 link. They hold no content.
 
-## Unused files
+## Files
 
-No page loads these:
+- `index.html` (generated), the five redirect stubs, `src/` (content and builder).
+- `img/tolga.jpg` (photo) and `doc/CV_tolga.pdf` (CV), linked from the page; `doc/ozdenwouters2020_draft.pdf`
+  is the paper draft linked from the Research tab.
+- Kept although the page does not link them, because outside pages may: the older paper drafts and the BLE
+  online appendix in `doc/`, `CV_pic.jpg`, `img/CV_pic.jpg` and `img/partywizard.gif`.
+- `CNAME` (custom domain) and `.nojekyll` (serve files as they are).
 
-- `css/style.css` and the root `style.css`: stylesheets of the earlier six-page site.
-- Start Bootstrap leftovers: `package.json`, `package-lock.json`, `gulpfile.js`, `vendor/`, `scss/`,
-  `js/`, `css/resume*.css`, `handler.php`, `.travis.yml`. These trigger GitHub's Dependabot alerts.
-
-Still in use: `img/tolga.jpg` (photo), `doc/` (CV and a paper draft linked from the page), `CNAME`,
-`.nojekyll`.
+The Start Bootstrap template files (`vendor/`, `scss/`, `js/`, npm and gulp build files) were removed on
+22 October 2026.
 
 Restructured on 22 October 2026 from six hand-written pages into one generated page.
